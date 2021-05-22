@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Title = (props) => {
-    const {title} = props
+const Title = ({title}) => {
+    // const {title} = props
     return (
         <h3>{ title }</h3>
     );
