@@ -5,11 +5,11 @@ import Author from "./Author";
 
 const Book = () => {
     return (
-        <div>
+        <article className='book'>
             <Image />
             <Title />
             <Author />
-        </div>
+        </article>
     );
 };
 

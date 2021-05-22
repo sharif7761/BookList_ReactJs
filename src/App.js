@@ -1,11 +1,13 @@
 import './App.css';
 import Book from "./components/Book";
-
+import  './index.css'
 function App() {
   return (
-    <div className="App">
+    <section className="booklist">
         <Book />
-    </div>
+        <Book />
+        <Book />
+    </section>
   );
 }
 
