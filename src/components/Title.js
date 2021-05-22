@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Title = () => {
-    const title = 'I Love You to the Moon and Back'
+const Title = (props) => {
+    const {title} = props
     return (
         <h3>{ title }</h3>
     );

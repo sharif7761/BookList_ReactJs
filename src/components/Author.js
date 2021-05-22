@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Author = () => {
-    const author = 'Amelia Hepworth'
+const Author = (props) => {
+    const {author} = props
     return (
-        <h5 style={{color:'#617d98', fontSize: '0.75rem', marginTop: '0.25rem'}}>{ author.toUpperCase() }</h5>
+        <h5 style={{color:'#617d98', fontSize: '0.75rem', marginTop: '0.25rem'}}>{ author }</h5>
     );
 };
 
