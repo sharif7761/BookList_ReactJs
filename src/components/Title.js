@@ -1,8 +1,9 @@
 import React from 'react';
 
 const Title = () => {
+    const title = 'I Love You to the Moon and Back'
     return (
-        <h3>I Love You to the Moon and Back</h3>
+        <h3>{ title }</h3>
     );
 };
 
