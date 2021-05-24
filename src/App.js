@@ -4,6 +4,9 @@ import './index.css'
 import data from './data'
 
 function App() {
+    const handleClick = (title) => {
+        alert("What to buy "+title+ "?")
+    }
     return (
         <section className="booklist">
             {
@@ -13,7 +16,9 @@ function App() {
                        <Book key={id}
                              img={img}
                              title={title}
-                             author={author}>
+                             author={author}
+                       >
+                           <button onClick={() => handleClick(title)}>Add to cart</button>
                        </Book>
                    )
                })
