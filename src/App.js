@@ -8,10 +8,12 @@ function App() {
         <section className="booklist">
             {
                data.map((book)=>{
+                   const {id, img, title, author} = book
                    return (
-                       <Book img={book.img}
-                             title={book.title}
-                             author={book.author}>
+                       <Book key={id}
+                             img={img}
+                             title={title}
+                             author={author}>
                        </Book>
                    )
                })
